@@ -2,11 +2,12 @@
 <html lang="en">
 {% assign meta = "" | split: "" %}
 {% for yml_file in site.data %}
-  {% assign meta = meta | push:yml_file[1] %}
+  {% if yml_file[1] %}
+    {% assign meta = meta | push:yml_file[1] %}
+  {% endif %}
 {% endfor %}
 {% assign meta = meta | sort: 'listing-order' %}
 
-  
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -137,7 +138,7 @@
           </ul>
         </li>
       {% endfor %}
-      </ul>
+    </ul>
   </div>
   <div id="footer">
     <span>
