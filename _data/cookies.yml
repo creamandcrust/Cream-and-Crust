@@ -1,9 +1,0 @@
-subject: Cakes
-listing-order: 1
-icon: "/assets/img/cake-icon.svg"
-contents:
-  - title: "Delicious Cakes"
-    description:
-      - Indulge in our mouth-watering selection of cakes, perfect for any occasion.
-      - From classic chocolate to fruity flavors, find your favorite here.
-      - [View More](cakes.html)
