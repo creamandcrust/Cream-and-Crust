@@ -1,1 +1,9 @@
-
+subject: B-day cakes
+listing-order: 3
+icon: "/assets/img/cookie-icon.svg"
+contents:
+  - title: "Crunchy Cookies"
+    description:
+      - Treat yourself to our delightful cookies.
+      - From classic chocolate chip to unique flavors, enjoy every bite.
+      - [View More](cookies.html)
