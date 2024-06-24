@@ -1,6 +1,7 @@
 title: Cream and Crust
 #profile_img: assets/img/profile.jpg
-#name: "Cream and Crust"
+
+name: "Cream and Crust"
 job: "Authentic mama's bakery"
 #icon_img: assets/img/icon.webp
 
@@ -9,6 +10,14 @@ address: Jerusalem, Israel
 email: cream.an.crust@gmail.com
 github_username: Creamandcrust.github.io
 
+phone_number: 050625114
+linkedin_username: check
+github_username: creamandcrust
+instagram_username: check
+twitter_username: check
+facebook_username: check 
+youtube_username: check
+blog_url: check-url
 
 exclude:
   - _posts/
