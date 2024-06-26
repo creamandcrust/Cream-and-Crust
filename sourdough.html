@@ -8,6 +8,22 @@ title: sourdough
 <div class="sourdough-gallery">
   <img src="/assets/img/mach1.jpg" alt="Sourdough Picture 1">
   <img src="/assets/img/mach2.jpg" alt="Sourdough Picture 2">
-  
+
   <!-- Add more images as needed -->
 </div>
+
+<style>
+  .sourdough-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .sourdough-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Additional responsive styles can be added here */
+</style>
