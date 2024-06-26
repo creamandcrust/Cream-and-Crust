@@ -3,6 +3,15 @@ layout: default
 title: Sourdough
 ---
 
+<style>
+  /* Specific CSS to hide sidebar only on this page */
+  @media (min-width: 1024px) {
+    #sidebar {
+      display: none !important; /* Hide sidebar on larger screens */
+    }
+  }
+</style>
+
 <h1>Sourdough</h1>
 
 <div class="sourdough-gallery">
@@ -12,6 +21,7 @@ title: Sourdough
 </div>
 
 <style>
+  /* Additional CSS specific to sourdough.html if needed */
   .sourdough-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -22,10 +32,5 @@ title: Sourdough
     width: 100%;
     height: auto;
     display: block;
-  }
-
-  /* Hide sidebar specifically on sourdough.html */
-  #sidebar {
-    display: none; /* Assuming sidebar is targeted by ID */
   }
 </style>
