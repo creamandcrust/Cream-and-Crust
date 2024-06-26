@@ -1,15 +1,15 @@
 title:  Cream And Crust
 profile_img: assets/img/profile.webp
-icon_img: assets/img/icon.webp
+#icon_img: assets/img/icon.webp
 
 name: "Cream And Crust"
 job: "〈The coolest bakery〉"
 
-phone_number: 0123456789
-address: Jerusalem, Israel
-email: cream.an.crust@gmail.com
+#phone_number: 0123456789
+#address: Jerusalem, Israel
+#email: cream.an.crust@gmail.com
 #linkedin_username: cream crust
-github_username: creamandcrust
+#github_username: creamandcrust
 #instagram_username: creamcrust
 #twitter_username: cream crust
 #facebook_username: cream crust
