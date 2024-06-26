@@ -1,3 +1,27 @@
-theme: jekyll-theme-merlot
-title: [Avital Rosner]
-description: [Welcome to my web page :)]
+title: check 
+profile_img: assets/img/profile.jpg
+icon_img: assets/img/icon.webp
+
+name: "check"
+job: "〈check〉"
+
+phone_number: 07777777777
+address: Rehovot, Israel
+email: .mazal@gmail.com
+linkedin_username: Mazal Faraj
+github_username: mazalik
+instagram_username: mazalfaraj
+twitter_username: twitter
+facebook_username: Mazal Faraj
+youtube_username: youtube
+blog_url: homepage-url
+
+exclude:
+  - _posts/
+  - resources/
+  - vendor/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
