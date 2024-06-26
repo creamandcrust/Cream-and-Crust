@@ -5,5 +5,5 @@ contents:
   - title: "coolest dow"
     description: 
       - great dow
-      - lovely dow
-      - sourdough.html
+      - lovely dow 
+link: "/sourdough.html"
