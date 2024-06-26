@@ -8,13 +8,13 @@ job: "〈The coolest bakery〉"
 phone_number: 0123456789
 address: Jerusalem, Israel
 email: cream.an.crust@gmail.com
-linkedin_username: cream crust
-github_username: cream crust
-instagram_username: creamcrust
-twitter_username: cream crust
-facebook_username: cream crust
-youtube_username: youtube
-blog_url: homepage-url
+#linkedin_username: cream crust
+github_username: creamandcrust
+#instagram_username: creamcrust
+#twitter_username: cream crust
+#facebook_username: cream crust
+#youtube_username: youtube
+#blog_url: homepage-url
 
 exclude:
   - _posts/
