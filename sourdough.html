@@ -3,14 +3,29 @@ layout: default
 title: Sourdough
 ---
 
-<style>
-  /* Specific CSS to hide sidebar only on this page */
-  @media (min-width: 1024px) {
-    #sidebar {
-      display: none !important; /* Hide sidebar on larger screens */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sourdough</title>
+  <style>
+    /* Additional CSS specific to sourdough.html if needed */
+    .sourdough-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
     }
-  }
-</style>
+
+    .sourdough-gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body class="page-sourdough">
 
 <h1>Sourdough</h1>
 
@@ -20,17 +35,5 @@ title: Sourdough
   <!-- Add more images as needed -->
 </div>
 
-<style>
-  /* Additional CSS specific to sourdough.html if needed */
-  .sourdough-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-  }
-
-  .sourdough-gallery img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-</style>
+</body>
+</html>
